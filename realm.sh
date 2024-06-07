@@ -149,7 +149,7 @@ Install(){
 	colorEcho $BLUE " Realm已安装, 请修改配置文件中后启动"
 }
 
-Start){
+Start(){
     systemctl start realm
     colorEcho $BLUE " Realm已启动"
 }

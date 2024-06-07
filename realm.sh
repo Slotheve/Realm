@@ -154,7 +154,7 @@ Start(){
     colorEcho $BLUE " Realm已启动"
 }
 
-Restart){
+Restart(){
     systemctl restart realm
     colorEcho $BLUE " Realm已启动"
 }

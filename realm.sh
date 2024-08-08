@@ -147,6 +147,7 @@ Install(){
 	Deploy
 	echo ""
 	colorEcho $BLUE " Realm已安装, 请修改配置文件中后启动"
+ 	colorEcho $BLUE " 配置文件路径: " && colorEcho $RED"/etc/realm/realm.toml"
 }
 
 Start(){

@@ -119,6 +119,7 @@ EOF
 
     cat > /etc/realm/realm.toml<<-EOF
 [network]
+no_tcp = false
 use_udp = true
 
 [[endpoints]]
